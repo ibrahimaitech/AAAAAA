@@ -1,59 +1,56 @@
 /**
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
-//                                                                                                      //
-//                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
-//                                                                                                      // 
-//                                         Ｖ：1．3．0                                                   // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
-//                                                                                                      //
-//                                                                                                      //
-//                                                                                                      //
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
-*
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/@SuhailTechInfo
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
-   * @version 1.3.0
+//════════════════════════════════════════════════════════════════════════════════════════════//
+//                                                                                            //
+//                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                          //
+//                                                                                            // 
+//                                         Ｖ：2．5．0                                         // 
+//                                                                                            // 
+//                                                                                            // 
+//          ██████╗ ██╗███████╗████████╗███████╗██████╗     ███╗   ███╗██████╗                // 
+//         ██╔════╝ ██║██╔════╝╚══██╔══╝██╔════╝██╔══██╗    ████╗ ████║██╔══██╗               // 
+//         ██║  ███╗██║█████╗     ██║   █████╗  ██║  ██║    ██╔████╔██║██║  ██║               // 
+//         ██║   ██║██║██╔══╝     ██║   ██╔══╝  ██║  ██║    ██║╚██╔╝██║██║  ██║               // 
+//         ╚██████╔╝██║██║        ██║   ███████╗██████╔╝    ██║ ╚═╝ ██║██████╔╝               // 
+//          ╚═════╝ ╚═╝╚═╝        ╚═╝   ╚══════╝╚═════╝     ╚═╝     ╚═╝╚═════╝                //
+//                                                                                            //
+//                                                                                            //
+//                                                                                            //
+//                                                                                            //
+//════════════════════════════════════════════════════════════════════════════════════════════//
+*                                                                 
+  * @project_name : Gifted-Md
+   * @author : Gifted Tech Info
+   * @youtube : https://www.youtube.com/@giftedtechnexus
+   * @description : Gifted-Md ,A Multi-functional whatsapp user bot.
+   * @version 2.5.0
 *
 * 
-   * Created By Suhail Tech Info.
-   * © 2024 Suhail-Md.
- ⛥┌┤
+   * Created By Gifted Tech Info.
+   * © 2024 Gifted-Md.
+⛥┌┤
  */
- 
-  const os = require('os')
-  let menus = false
-  const moment = require("moment-timezone")
-  const fs = require("fs")
-  const Config = require('../config')
-  let { fancytext, tlang, tiny,bot_,alive, runtime, formatp, smsg ,getAdmin , send , react ,botpic,sleep, getBuffer ,prefix, sck1,smd,sck ,getTime ,formatDate  , groupdb,smdJson,smdBuffer, isAdmin  } = require("../lib");
-  const long = String.fromCharCode(8206)
-  const readmore = long.repeat(4001)
-  const sᴜʜᴀɪʟ_ᴍᴅ = require('../lib/plugins')
-  const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
-  const axios = require('axios')
-  const fetch = require("node-fetch");
-  const util = require("util");
-  const events = sᴜʜᴀɪʟ_ᴍᴅ;
-  const { commands } = require('../lib');
-  const { exec } = require("child_process")
-  const translatte = require("translatte");
-  const cheerio = require('cheerio');
-  const path = require('path');
-  const cron = require('node-cron');
-  var cronStart = false
-  
+
+const os = require('os');
+const fs = require("fs");
+const Config = require('../config');
+const long = String.fromCharCode(8206);
+const readmore = long.repeat(4001);
+const sᴜʜᴀɪʟ_ᴍᴅ = require('../lib/plugins');
+const util = require("util");
+const {
+  commands
+} = require('../lib');
+const {
+  exec
+} = require("child_process");
+const translatte = require("translatte");
+const cron = require('node-cron');
+var cronStart = false;
+
 /*
 let "USER_IMAGES" = {
       "description": "Put IMAGES/VIDEOS URL, Make Sure Url have extention like .mp4,.jpg,.png etc",
-      "value": "https://telegra.ph/file/522d399d03e2b682a6938.mp4",
+      "value": "https://telegra.ph/file/db3a5c86c0e3dd11e0071.mp4",
       "required" :false
     },
 */
