@@ -98,11 +98,11 @@ smd({
     for (const _0x38ab93 in _0x377395) {
       _0x5d55f6 += 0x1;
       if (_0x3231c0.toLowerCase() == _0x38ab93.toLowerCase()) {
-        _0x3acd87 = "┏━━〘 *" + _0x38ab93.toUpperCase() + "* ⟫━━⦿\n\n";
+        _0x3acd87 = "┏━━《 *" + _0x38ab93.toUpperCase() + "* 》━⍟\n\n";
         for (const _0xf7d760 of _0x377395[_0x38ab93]) {
           _0x3acd87 += "┃ ✗ " + fancytext(_0xf7d760, 0x1) + "\n";
         }
-        _0x3acd87 += "\n┗━━━━━━━━━━━━━━⦿";
+        _0x3acd87 += "\n┗━━━━━━━━━━━━━━⍟";
         break;
       }
       if (_0x5d55f6 >= 0xa) {
@@ -226,7 +226,7 @@ sᴜʜᴀɪʟ_ᴍᴅ.smd({
   var _0x3e6d92 = new Date().getTime();
   const {
     key: _0x12f337
-  } = await _0x36e339.reply("*Gifted is Pinging!*");
+  } = await _0x36e339.reply("*Panther is Pinging!*");
   var _0x1ea04b = new Date().getTime();
   return await _0x36e339.send("*Gifted Speed is:*   *" + (_0x1ea04b - _0x3e6d92) + " ms* ", {
     'edit': _0x12f337
