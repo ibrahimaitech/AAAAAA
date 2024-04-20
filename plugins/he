@@ -92,13 +92,13 @@ smd({
     });
     let _0x2f60d8 = Math.round(Math.random());
     let _0x3da38a = _0x2f60d8 === 0x0 ? "MENU" : 'COMMANDS';
-    let _0x3acd87 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t *GIFTED-MD_" + _0x3da38a + "_LIST* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n\t```Reply the number you wants to select```\n\n";
+    let _0x3acd87 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t *BLACKPANTHER-MD_" + _0x3da38a + "_LIST* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n\t```Reply the number you wants to select```\n\n";
     let _0x6b2842 = 0x1;
     let _0x5d55f6 = 0x0;
     for (const _0x38ab93 in _0x377395) {
       _0x5d55f6 += 0x1;
       if (_0x3231c0.toLowerCase() == _0x38ab93.toLowerCase()) {
-        _0x3acd87 = "┏━━⟪ *" + _0x38ab93.toUpperCase() + "* ⟫━━⦿\n\n";
+        _0x3acd87 = "┏━━〘 *" + _0x38ab93.toUpperCase() + "* ⟫━━⦿\n\n";
         for (const _0xf7d760 of _0x377395[_0x38ab93]) {
           _0x3acd87 += "┃ ✗ " + fancytext(_0xf7d760, 0x1) + "\n";
         }
