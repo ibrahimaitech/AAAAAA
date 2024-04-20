@@ -228,7 +228,7 @@ sᴜʜᴀɪʟ_ᴍᴅ.smd({
     key: _0x12f337
   } = await _0x36e339.reply("*Panther is Pinging!*");
   var _0x1ea04b = new Date().getTime();
-  return await _0x36e339.send("*Gifted Speed is:*   *" + (_0x1ea04b - _0x3e6d92) + " ms* ", {
+  return await _0x36e339.send("*Pong█████▒▒▒▒▒*   *" + (_0x1ea04b - _0x3e6d92) + " ms* ", {
     'edit': _0x12f337
   }, '', _0x36e339);
 });
@@ -292,12 +292,12 @@ sᴜʜᴀɪʟ_ᴍᴅ.smd({
     }
     if (_0x47477f === 0x1 || Config.menu.trim().startsWith('1') || Config.menu.toLowerCase().includes("menu1")) {
       _0x3e24f0 = "┏﹝ *" + Config.botname + "* ﹞";
-      _0x96d54a = "┃ ✗";
-      _0xa0c266 = '┗═════════════〤';
-      _0x17a641 = '┌『';
+      _0x96d54a = "┋ ✗";
+      _0xa0c266 = '┗═════════════⍟';
+      _0x17a641 = '┏『';
       _0x319538 = '』';
-      _0x96d54a = " | ";
-      _0x1ad318 = "\n└═════════════〤";
+      _0x96d54a = " ┋ ";
+      _0x1ad318 = "\n└═════════════⍟";
     } else if (_0x47477f === 0x2 || Config.menu.trim().startsWith('2') || Config.menu.toLowerCase().includes("menu2")) {
       _0x3e24f0 = "┌═[ *" + Config.botname + "* ]";
       _0x96d54a = "¶│▸";
